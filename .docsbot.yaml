@@ -1,0 +1,32 @@
+enabled: true
+docs_output_dir: docs/
+open_pr: true
+
+generators:
+  api_reference: true
+  changelog: true
+  readme_update: true
+  architecture: false
+  docstrings: false
+  migration_guide: true
+  onboarding: false
+  runbook: false
+  stale_detection: false
+
+ignore_paths:
+  - tests/
+  - migrations/
+  - "*.test.js"
+  - "*.spec.js"
+  - node_modules/
+  - dist/
+  - coverage/
+
+source_extensions:
+  - .js
+  - .ts
+  - .py
+  - .go
+  - .java
+
+changelog_file: CHANGELOG.md

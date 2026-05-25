@@ -3,6 +3,8 @@
 An AI-powered documentation agent that watches GitHub repositories and automatically generates technical documentation whenever a PR is merged. It commits the generated docs back to the repo as a new pull request.
 
 Powered by Claude (Anthropic), it produces API references, changelogs, migration guides, architecture overviews, and more — all derived strictly from your code and PR diffs.
+# Documentation Generator
+This project auto-generates documentation using AI.
 
 ## How It Works
 
